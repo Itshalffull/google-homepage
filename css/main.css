@@ -4,3 +4,26 @@
 	margin-right: auto;
 	text-align: center;
 }
+
+#googleimage {
+	padding-top: 112px;
+}
+
+#googlebuttons button {
+	background-color: whitesmoke;
+	color: darkolivegreen;
+	border: solid 1px gainsboro;
+	font-weight: bold;
+}
+#googlebuttons button:hover{
+	box-shadow: -3px 3px 3px gainsboro;
+}
+
+#googleinput {
+	border: solid 1px whitesmoke;
+	text-align: left;
+	width: 539px;
+}
+#googleinput:hover {
+	outline: solid 1px darkolivegreen;
+}

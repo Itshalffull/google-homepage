@@ -1,9 +1,27 @@
 #googlenav {
 	text-align:right;
+	position:absolute;
+	top:0;
+	right:0;
 	vertical-align: middle;
 	font-size:.9em;
 }
 
+#googlenav img {
+	position: relative;
+}
+
+#googlenav img[src*="blocks"] {
+	top: 8px;
+}
+#googlenav img[src*="bell"] {
+	top: 9px;
+}
+
+#googlenav img[src*="userpic"] {
+	top: 15px;
+	right:10;
+}
 #googlenav a {
 	margin-left: 16px;
 	color: dimgray;
@@ -18,6 +36,9 @@
 #googl
 #googlenav :not(img) a > {
 	color:brown;
+}
+#googleheader {
+	padding-top: 50px;
 }
 #googleheader > img, input, #googlebuttons {
 	display: block;
@@ -62,6 +83,7 @@ button {
 	position: absolute;
 	bottom:0;
 	left:0;
+	line-height:50px;
 	vertical-align: middle;
 }
 #googlefoot a {
